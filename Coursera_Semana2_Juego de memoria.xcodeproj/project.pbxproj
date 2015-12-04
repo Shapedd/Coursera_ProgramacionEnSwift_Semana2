@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07CDCEB61C123018007E1271 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CDCEB51C123018007E1271 /* AppDelegate.swift */; };
+		07CDCEB81C123018007E1271 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CDCEB71C123018007E1271 /* ViewController.swift */; };
+		07CDCEBB1C123018007E1271 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CDCEB91C123018007E1271 /* Main.storyboard */; };
+		07CDCEBE1C123018007E1271 /* Coursera_Semana2_Juego_de_memoria.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07CDCEBC1C123018007E1271 /* Coursera_Semana2_Juego_de_memoria.xcdatamodeld */; };
+		07CDCEC01C123018007E1271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07CDCEBF1C123018007E1271 /* Assets.xcassets */; };
+		07CDCEC31C123018007E1271 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CDCEC11C123018007E1271 /* LaunchScreen.storyboard */; };
+		07CDCECE1C123018007E1271 /* Coursera_Semana2_Juego_de_memoriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CDCECD1C123018007E1271 /* Coursera_Semana2_Juego_de_memoriaTests.swift */; };
+		07CDCED91C123018007E1271 /* Coursera_Semana2_Juego_de_memoriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CDCED81C123018007E1271 /* Coursera_Semana2_Juego_de_memoriaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07CDCECA1C123018007E1271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07CDCEAA1C123018007E1271 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07CDCEB11C123018007E1271;
+			remoteInfo = "Coursera_Semana2_Juego de memoria";
+		};
+		07CDCED51C123018007E1271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07CDCEAA1C123018007E1271 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07CDCEB11C123018007E1271;
+			remoteInfo = "Coursera_Semana2_Juego de memoria";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07CDCEB21C123018007E1271 /* Coursera_Semana2_Juego de memoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coursera_Semana2_Juego de memoria.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07CDCEB51C123018007E1271 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07CDCEB71C123018007E1271 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07CDCEBA1C123018007E1271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07CDCEBD1C123018007E1271 /* Coursera_Semana2_Juego_de_memoria.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Coursera_Semana2_Juego_de_memoria.xcdatamodel; sourceTree = "<group>"; };
+		07CDCEBF1C123018007E1271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07CDCEC21C123018007E1271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07CDCEC41C123018007E1271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07CDCEC91C123018007E1271 /* Coursera_Semana2_Juego de memoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coursera_Semana2_Juego de memoriaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07CDCECD1C123018007E1271 /* Coursera_Semana2_Juego_de_memoriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coursera_Semana2_Juego_de_memoriaTests.swift; sourceTree = "<group>"; };
+		07CDCECF1C123018007E1271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07CDCED41C123018007E1271 /* Coursera_Semana2_Juego de memoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coursera_Semana2_Juego de memoriaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07CDCED81C123018007E1271 /* Coursera_Semana2_Juego_de_memoriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coursera_Semana2_Juego_de_memoriaUITests.swift; sourceTree = "<group>"; };
+		07CDCEDA1C123018007E1271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07CDCEAF1C123018007E1271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CDCEC61C123018007E1271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CDCED11C123018007E1271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07CDCEA91C123018007E1271 = {
+			isa = PBXGroup;
+			children = (
+				07CDCEB41C123018007E1271 /* Coursera_Semana2_Juego de memoria */,
+				07CDCECC1C123018007E1271 /* Coursera_Semana2_Juego de memoriaTests */,
+				07CDCED71C123018007E1271 /* Coursera_Semana2_Juego de memoriaUITests */,
+				07CDCEB31C123018007E1271 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07CDCEB31C123018007E1271 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07CDCEB21C123018007E1271 /* Coursera_Semana2_Juego de memoria.app */,
+				07CDCEC91C123018007E1271 /* Coursera_Semana2_Juego de memoriaTests.xctest */,
+				07CDCED41C123018007E1271 /* Coursera_Semana2_Juego de memoriaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07CDCEB41C123018007E1271 /* Coursera_Semana2_Juego de memoria */ = {
+			isa = PBXGroup;
+			children = (
+				07CDCEB51C123018007E1271 /* AppDelegate.swift */,
+				07CDCEB71C123018007E1271 /* ViewController.swift */,
+				07CDCEB91C123018007E1271 /* Main.storyboard */,
+				07CDCEBF1C123018007E1271 /* Assets.xcassets */,
+				07CDCEC11C123018007E1271 /* LaunchScreen.storyboard */,
+				07CDCEC41C123018007E1271 /* Info.plist */,
+				07CDCEBC1C123018007E1271 /* Coursera_Semana2_Juego_de_memoria.xcdatamodeld */,
+			);
+			path = "Coursera_Semana2_Juego de memoria";
+			sourceTree = "<group>";
+		};
+		07CDCECC1C123018007E1271 /* Coursera_Semana2_Juego de memoriaTests */ = {
+			isa = PBXGroup;
+			children = (
+				07CDCECD1C123018007E1271 /* Coursera_Semana2_Juego_de_memoriaTests.swift */,
+				07CDCECF1C123018007E1271 /* Info.plist */,
+			);
+			path = "Coursera_Semana2_Juego de memoriaTests";
+			sourceTree = "<group>";
+		};
+		07CDCED71C123018007E1271 /* Coursera_Semana2_Juego de memoriaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07CDCED81C123018007E1271 /* Coursera_Semana2_Juego_de_memoriaUITests.swift */,
+				07CDCEDA1C123018007E1271 /* Info.plist */,
+			);
+			path = "Coursera_Semana2_Juego de memoriaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07CDCEB11C123018007E1271 /* Coursera_Semana2_Juego de memoria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07CDCEDD1C123018007E1271 /* Build configuration list for PBXNativeTarget "Coursera_Semana2_Juego de memoria" */;
+			buildPhases = (
+				07CDCEAE1C123018007E1271 /* Sources */,
+				07CDCEAF1C123018007E1271 /* Frameworks */,
+				07CDCEB01C123018007E1271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coursera_Semana2_Juego de memoria";
+			productName = "Coursera_Semana2_Juego de memoria";
+			productReference = 07CDCEB21C123018007E1271 /* Coursera_Semana2_Juego de memoria.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07CDCEC81C123018007E1271 /* Coursera_Semana2_Juego de memoriaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07CDCEE01C123018007E1271 /* Build configuration list for PBXNativeTarget "Coursera_Semana2_Juego de memoriaTests" */;
+			buildPhases = (
+				07CDCEC51C123018007E1271 /* Sources */,
+				07CDCEC61C123018007E1271 /* Frameworks */,
+				07CDCEC71C123018007E1271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07CDCECB1C123018007E1271 /* PBXTargetDependency */,
+			);
+			name = "Coursera_Semana2_Juego de memoriaTests";
+			productName = "Coursera_Semana2_Juego de memoriaTests";
+			productReference = 07CDCEC91C123018007E1271 /* Coursera_Semana2_Juego de memoriaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07CDCED31C123018007E1271 /* Coursera_Semana2_Juego de memoriaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07CDCEE31C123018007E1271 /* Build configuration list for PBXNativeTarget "Coursera_Semana2_Juego de memoriaUITests" */;
+			buildPhases = (
+				07CDCED01C123018007E1271 /* Sources */,
+				07CDCED11C123018007E1271 /* Frameworks */,
+				07CDCED21C123018007E1271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07CDCED61C123018007E1271 /* PBXTargetDependency */,
+			);
+			name = "Coursera_Semana2_Juego de memoriaUITests";
+			productName = "Coursera_Semana2_Juego de memoriaUITests";
+			productReference = 07CDCED41C123018007E1271 /* Coursera_Semana2_Juego de memoriaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07CDCEAA1C123018007E1271 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Carlos Sanchez San Segundo";
+				TargetAttributes = {
+					07CDCEB11C123018007E1271 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = A5UWCAP627;
+					};
+					07CDCEC81C123018007E1271 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = A5UWCAP627;
+						TestTargetID = 07CDCEB11C123018007E1271;
+					};
+					07CDCED31C123018007E1271 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = A5UWCAP627;
+						TestTargetID = 07CDCEB11C123018007E1271;
+					};
+				};
+			};
+			buildConfigurationList = 07CDCEAD1C123018007E1271 /* Build configuration list for PBXProject "Coursera_Semana2_Juego de memoria" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07CDCEA91C123018007E1271;
+			productRefGroup = 07CDCEB31C123018007E1271 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07CDCEB11C123018007E1271 /* Coursera_Semana2_Juego de memoria */,
+				07CDCEC81C123018007E1271 /* Coursera_Semana2_Juego de memoriaTests */,
+				07CDCED31C123018007E1271 /* Coursera_Semana2_Juego de memoriaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07CDCEB01C123018007E1271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CDCEC31C123018007E1271 /* LaunchScreen.storyboard in Resources */,
+				07CDCEC01C123018007E1271 /* Assets.xcassets in Resources */,
+				07CDCEBB1C123018007E1271 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CDCEC71C123018007E1271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CDCED21C123018007E1271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07CDCEAE1C123018007E1271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CDCEB81C123018007E1271 /* ViewController.swift in Sources */,
+				07CDCEBE1C123018007E1271 /* Coursera_Semana2_Juego_de_memoria.xcdatamodeld in Sources */,
+				07CDCEB61C123018007E1271 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CDCEC51C123018007E1271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CDCECE1C123018007E1271 /* Coursera_Semana2_Juego_de_memoriaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CDCED01C123018007E1271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CDCED91C123018007E1271 /* Coursera_Semana2_Juego_de_memoriaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07CDCECB1C123018007E1271 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07CDCEB11C123018007E1271 /* Coursera_Semana2_Juego de memoria */;
+			targetProxy = 07CDCECA1C123018007E1271 /* PBXContainerItemProxy */;
+		};
+		07CDCED61C123018007E1271 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07CDCEB11C123018007E1271 /* Coursera_Semana2_Juego de memoria */;
+			targetProxy = 07CDCED51C123018007E1271 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07CDCEB91C123018007E1271 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07CDCEBA1C123018007E1271 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07CDCEC11C123018007E1271 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07CDCEC21C123018007E1271 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07CDCEDB1C123018007E1271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07CDCEDC1C123018007E1271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07CDCEDE1C123018007E1271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Coursera_Semana2_Juego de memoria/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CSS.Coursera-Semana2-Juego-de-memoria";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07CDCEDF1C123018007E1271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Coursera_Semana2_Juego de memoria/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CSS.Coursera-Semana2-Juego-de-memoria";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07CDCEE11C123018007E1271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Coursera_Semana2_Juego de memoriaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CSS.Coursera-Semana2-Juego-de-memoriaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coursera_Semana2_Juego de memoria.app/Coursera_Semana2_Juego de memoria";
+			};
+			name = Debug;
+		};
+		07CDCEE21C123018007E1271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Coursera_Semana2_Juego de memoriaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CSS.Coursera-Semana2-Juego-de-memoriaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coursera_Semana2_Juego de memoria.app/Coursera_Semana2_Juego de memoria";
+			};
+			name = Release;
+		};
+		07CDCEE41C123018007E1271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Coursera_Semana2_Juego de memoriaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CSS.Coursera-Semana2-Juego-de-memoriaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Coursera_Semana2_Juego de memoria";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		07CDCEE51C123018007E1271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Coursera_Semana2_Juego de memoriaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CSS.Coursera-Semana2-Juego-de-memoriaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Coursera_Semana2_Juego de memoria";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07CDCEAD1C123018007E1271 /* Build configuration list for PBXProject "Coursera_Semana2_Juego de memoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CDCEDB1C123018007E1271 /* Debug */,
+				07CDCEDC1C123018007E1271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07CDCEDD1C123018007E1271 /* Build configuration list for PBXNativeTarget "Coursera_Semana2_Juego de memoria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CDCEDE1C123018007E1271 /* Debug */,
+				07CDCEDF1C123018007E1271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07CDCEE01C123018007E1271 /* Build configuration list for PBXNativeTarget "Coursera_Semana2_Juego de memoriaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CDCEE11C123018007E1271 /* Debug */,
+				07CDCEE21C123018007E1271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07CDCEE31C123018007E1271 /* Build configuration list for PBXNativeTarget "Coursera_Semana2_Juego de memoriaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CDCEE41C123018007E1271 /* Debug */,
+				07CDCEE51C123018007E1271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		07CDCEBC1C123018007E1271 /* Coursera_Semana2_Juego_de_memoria.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				07CDCEBD1C123018007E1271 /* Coursera_Semana2_Juego_de_memoria.xcdatamodel */,
+			);
+			currentVersion = 07CDCEBD1C123018007E1271 /* Coursera_Semana2_Juego_de_memoria.xcdatamodel */;
+			path = Coursera_Semana2_Juego_de_memoria.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 07CDCEAA1C123018007E1271 /* Project object */;
+}
